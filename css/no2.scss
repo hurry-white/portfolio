@@ -1,0 +1,49 @@
+.header {
+    &__title {
+        font-size: 50px;
+    }
+    &__btn {
+        display: none;
+    }
+    &__list {
+        display: inline-block;
+    }
+}
+
+.nav {
+    display: none;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+        margin: 0;
+    }
+    &__text-area {
+        text-align: left;
+    }
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        flex-basis: 40%;
+        &:nth-child(5) {
+            margin-left: 5%;
+        }
+    }
+}
+
+.work {
+    &__box {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+.box {
+    width: 280px;
+}

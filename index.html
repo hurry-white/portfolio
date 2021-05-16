@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="css/_init.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
+    <!--FontAwesome-->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+
+    <title>ポートフォリオ</title>
+    <meta name="description" content="WEB系ポートフォリオ">
+</head>
+<body class="body">
+    <div class="wrap">
+        <header class="container__header header">
+            <h1 class="header__title title">Harry</h1>
+            <div class="header__btn ham">
+                <span class="ham__bar"></span>
+                <span class="ham__bar"></span>
+                <span class="ham__bar"></span>
+            </div>
+            <nav class="header__list nav-lg">
+                <ul class="nav-lg__list">
+                    <li class="nav-lg__item"><a class="link" href="#1">Profile</a></li>
+                    <li class="nav-lg__item"><a class="link" href="#2">Skill</a></li>
+                    <li class="nav-lg__item"><a class="link" href="#3">Work</a></li>
+                    <li class="nav-lg__item"><a class="link" href="#4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="nav">
+            <ul class="nav__slide nav__slide--off slide">
+                <li class="slide__item"><a class="link link--cl-w" href="#1">Profile</a></li>
+                <li class="slide__item"><a class="link link--cl-w" href="#2">Skill</a></li>
+                <li class="slide__item"><a class="link link--cl-w" href="#3">Work</a></li>
+                <li class="slide__item"><a class="link link--cl-w" href="#4">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="wrap__main main">
+            <div class="main__inner">
+                <div class="top-content">
+                    <p class="top-content__tag">THE</p>
+                    <h2 class="top-content__title">Harry's</h2>
+                    <p class="top-content__title--sub">Portfolio</p>
+                </div>
+                <section class="section section--bg-gray" id="1">
+                    <h2 class="section__title" id="sec-title01">
+                        <span class="">P</span>
+                        <span class="">r</span>
+                        <span class="">o</span>
+                        <span class="">f</span>
+                        <span class="">i</span>
+                        <span class="">l</span>
+                        <span class="">e</span>
+                    </h2>
+                    <div class="profile">
+                        <img src="img/daigakusei.jpg" alt="" class="profile__img">
+                        <ul class="profile__text-area">
+                            <li class="profile__text">生年月日 : 1996 / 7 / 25</li>
+                            <li class="profile__text"> 出身地  : 福岡県</li>
+                            <li class="profile__text">  職業   : 大学生</li>
+                            <li class="profile__text">  専攻   : 情報工学</li>
+                        </ul>
+                    </div>
+                </section> <!--profile-->
+                <section class="section section" id="2">
+                    <h2 class="section__title" id="sec-title02">
+                        <span class="">S</span>
+                        <span class="">k</span>
+                        <span class="">i</span>
+                        <span class="">l</span>
+                        <span class="">l</span>
+                    </h2>
+                    <div class="skill">
+                        <div class="skill__item">
+                            <i class="skill-icon devicon-c-plain"></i>
+                            <div class="skill-detail">
+                                <h3 class="skill-detail__title">C言語</h3>
+                                <p class="skill-detail__text">学習年数は2年ほどです。<br>大学の授業関連で学習します。</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="skill-icon devicon-python-plain"></i>
+                            <div class="skill-detail">
+                                <h3 class="skill-detail__title">Python</h3>
+                                <p class="skill-detail__text">学習年数は2年ほどです。<br>話題のある言語として最初に学習を始めた言語です。</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="skill-icon devicon-html5-plain"></i>
+                            <div class="skill-detail">
+                                <h3 class="skill-detail__title">HTML / CSS</h3>
+                                <p class="skill-detail__text">学習年数は1年ほどです。<br>WEB制作の案件受注に向けて最近は頻繁に扱っています。</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="skill-icon devicon-jquery-plain"></i>
+                            <div class="skill-detail">
+                                <h3 class="skill-detail__title">jQuery</h3>
+                                <p class="skill-detail__text">学習年数は4ヵ月ほどです。<br>WEBページにアニメーション機能を実装できれば面白いと思い学習を始めました</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <i class="skill-icon far fa-check-square"></i>
+                            <div class="skill-detail">
+                                <h3 class="skill-detail__title">その他</h3>
+                            <p class="skill-detail__text">大学の授業でPostgreSQLを半年間学びました。<br>また、プロゲートやUdemyでRuby, Ruby on Rails, PHPを一通り学びました</p>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!--skill-->
+                <section class="section section--bg-gray" id="3">
+                    <h2 class="section__title" id="sec-title03">
+                        <span class="">W</span>
+                        <span class="">o</span>
+                        <span class="">r</span>
+                        <span class="">k</span>
+                    </h2>
+                    <div class="work">
+                        <div class="work__box">
+                            <div class="box">
+                                <img class="box__image" src="img/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">
+                                <div class="box__text">随時更新予定</div>
+                            </div>
+                            <div class="box">
+                                <img class="box__image" src="img/domenico-loia-EhTcC9sYXsw-unsplash.jpg" alt="">
+                                <div class="box__text">随時更新予定</div>
+                            </div>
+                            <div class="box">
+                                <img class="box__image" src="img/igor-miske-JVSgcV8_vb4-unsplash.jpg" alt="">
+                                <div class="box__text">随時更新予定</div>
+                            </div>
+                            <div class="box">
+                                <img class="box__image" src="img/markus-spiske-Skf7HxARcoc-unsplash.jpg" alt="">
+                                <div class="box__text">随時更新予定</div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!--work-->
+                <section class="section" id="4">
+                    <h2 class="section__title" id="sec-title04">
+                        <span class="">C</span>
+                        <span class="">o</span>
+                        <span class="">n</span>
+                        <span class="">t</span>
+                        <span class="">a</span>
+                        <span class="">c</span>
+                        <span class="">t</span>
+                    </h2>
+                    <div class="contact">
+                        <a href="https://crowdworks.jp/public/employees/3993312" class="button button--slide">クラウドワークス</a>
+                        <a href="https://www.frankdaigakusei.com" class="button button--spin"><span class="hov">ブログへ移動</span><span class="de">BLOG</span></a>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

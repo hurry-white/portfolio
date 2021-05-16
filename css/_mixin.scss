@@ -1,0 +1,26 @@
+@mixin animation (
+    $name,
+    $duration: 3s,
+    $count: 1,
+    $direction: normal
+) {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-iteration-count: $count;
+    animation-direction: $direction;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(-90%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(50%);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
